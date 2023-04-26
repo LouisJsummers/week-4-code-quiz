@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Web Page</title>
+</head>
+<body>
+<header>
+    
+    <div id="highscores">
+        <a href="/scores.html">High Scores</a>
+        <div id="timer"></div>
+    </div>
+
+</header>
+<main>
+   
+    <div id="welcome">
+        
+        <h1>Welcome to code quiz</h1>
+        <button id="startQuiz" class="button">Start quiz</button>
+
+    </div>
+ 
+    <div id="quiz" class="hidden">
+        
+        <div id="question"></div>
+        <div id="options"></div>
+        <div id="message"></div>
+
+    </div>
+
+    <div id="class" class="hidden">
+        
+        <div id="summary"></div>
+        <button id="view scores" class="button">View all High Scores</button>
+        <input type="text" id="initials" placeholder="Enter your initials">
+        <button id="saveScore" class="button">Save Score</button>
+        <button id="playAgain" class="button">Play Again</button>
+
+    </div>
+
+</main>
+</body>
+<script src="questions.js"></script>
+<script src="quiz.js"></script>
+
+</html>

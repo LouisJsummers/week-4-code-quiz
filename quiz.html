@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Web Page</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="questions.js">
+
 </head>
 <body>
 <header>
     
     <div id="highscores">
-        <a href="/scores.html">High Scores</a>
-        <div id="timer"></div>
+        <a id="scorelink" href="/scores.html">HIGH SCORES</a>
+        <div id="timer">TIMER</div>
     </div>
 
 </header>
@@ -19,8 +22,8 @@
    
     <div id="welcome">
         
-        <h1>Welcome to code quiz</h1>
-        <button id="startQuiz" class="button">Start quiz</button>
+        <h1>WELCOME TO CODE QUIZ</h1>
+        <button id="startQuiz" class="button">START QUIZ</button>
 
     </div>
  
@@ -35,9 +38,9 @@
     <div id="class" class="hidden">
         
         <div id="summary"></div>
-        <button id="view scores" class="button">View all High Scores</button>
         <input type="text" id="initials" placeholder="Enter your initials">
         <button id="saveScore" class="button">Save Score</button>
+        <button id="viewScores" class="button">View all High Scores</button>
         <button id="playAgain" class="button">Play Again</button>
 
     </div>

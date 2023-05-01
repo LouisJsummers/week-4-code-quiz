@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(163, 163, 163);
+
+}
+#welcome {
+    
+    color: rgb(48, 94, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border: 4px solid rgb(48, 94, 244);
+    background-color: rgb(151, 205, 255);
+    border-radius: 10%;
+    font-size: small;
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgb(163, 163, 163);
+
+}
+
+#quiz {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border: 4px solid rgb(48, 94, 244);
+    background-color: rgb(151, 205, 255);
+    border-radius: 10%;
+    font-size: large;
+}
+
+#options {
+    margin-top: 20px;
+}
+
+#question {
+    margin: 20px;
+}
+
+#summary #viewScores {
+    margin: 20px;
+}
+
+#viewScores {
+    margin: 10px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: 1px solid rgb(48, 94, 244);
+    background-color: rgb(48, 94, 244);
+    border-radius: 10%;
+    font-size: larger;
+}
+
+#initials {
+    margin: 10px;
+}
+
+#saveScore {
+    margin: 10px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: 1px solid rgb(48, 94, 244);
+    background-color: rgb(48, 94, 244);
+    border-radius: 10%;
+    font-size: larger;
+}
+
+#playAgain {
+    margin: 10px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: 1px solid rgb(48, 94, 244);
+    background-color: rgb(48, 94, 244);
+    border-radius: 10%;
+    font-size: larger;
+}
+
+#message {
+    color: red;
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+#class {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border: 4px solid rgb(48, 94, 244);
+    background-color: rgb(151, 205, 255);
+    border-radius: 10%;
+}
+
+#startQuiz {
+    color: white;
+    height: 50px;
+    width: 110px;
+    border: 1px solid rgb(48, 94, 244);
+    background-color: rgb(48, 94, 244);
+    border-radius: 10%;
+    font-size: larger;
+}
+
+#highscores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scorelink {
+    font-size: x-large;
+    color: rgb(48, 94, 244);
+}
+
+#timer {
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30%;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}

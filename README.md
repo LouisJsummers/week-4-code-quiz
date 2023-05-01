@@ -27,11 +27,11 @@ GIVEN I am taking a code quiz
 
 - When the user answers/finishes a question they are then presented with the next one.
 
-- 
+- Could not work out how to do the third point, subtract time from clock with wrong answer.
 
-- The game stops when the user gets through all the questions or the counter gets down to zero
+- The game stops when the user gets through all the questions or the counter gets down to zero.
 
-- They are presented with a 'enter initials' box to enter their name and save their score when the game is over
+- They are presented with a 'enter initials' box to enter their name and save their score when the game is over.
 
 
 ## Webpage screenshot

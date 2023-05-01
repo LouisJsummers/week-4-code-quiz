@@ -39,7 +39,7 @@ GIVEN I am taking a code quiz
 
 ## LINKS
 
-https://louisjsummers.github.io/Week-2-Portfolio-page/
 
-https://github.com/LouisJsummers/Week-2-Portfolio-page
+http://localhost:52330/quiz.html
 
+https://github.com/LouisJsummers/week-4-code-quiz

@@ -36,6 +36,8 @@ GIVEN I am taking a code quiz
 
 ## Webpage screenshot
 
+![Alt Text](quizscreenshot.png)
+
 
 ## LINKS
 

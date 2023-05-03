@@ -18,7 +18,7 @@ var summary = document.getElementById('summary');
 
 var secondsLeft = 75;
 var score = 0;
-var currentQuestion = 0;
+var currentQuestion = -1;
 var countDownTimer;
 
 
